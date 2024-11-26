@@ -9,12 +9,7 @@ pipeline {
             }
         }
 
-        stage('Install Dependencies') {
-            steps {
-                // Install Node.js dependencies
-                sh 'npm install'
-            }
-        }
+
         
         stage('Install Playwright') {
             steps {
